@@ -88,7 +88,7 @@ class ViewController: UIViewController {
             score += 1
             
         } else {
-            ProgressHUD.showSuccess("Wrong")
+            ProgressHUD.showError("Wrong")
         }
         
     }
